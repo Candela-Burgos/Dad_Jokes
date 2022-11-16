@@ -31,13 +31,24 @@ body {
     border-radius: 10px;
 }
 
-.container p {
+.container-jokes {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#get-joke {
+    display: block;
+}
+
+.container-jokes p {
     font-size: 1.5em;
     text-align: center;
     color: #62a104;
 }
 
-.container h2 {
+.container-jokes h2 {
     font-size: 2em;
     margin: 2em;
     text-align: center;
